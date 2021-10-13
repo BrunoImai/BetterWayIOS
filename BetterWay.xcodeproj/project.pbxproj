@@ -10,6 +10,15 @@
 		0EC1D5D0271476DA00629D30 /* BetterWay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC1D5C6271476DA00629D30 /* BetterWay.framework */; };
 		0EC1D5D5271476DA00629D30 /* BetterWayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1D5D4271476DA00629D30 /* BetterWayTests.swift */; };
 		0EC1D5D7271476DA00629D30 /* BetterWay.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC1D5C9271476DA00629D30 /* BetterWay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EC1D5E7271477B200629D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1D5E6271477B200629D30 /* AppDelegate.swift */; };
+		0EC1D5E9271477B200629D30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1D5E8271477B200629D30 /* SceneDelegate.swift */; };
+		0EC1D5EB271477B200629D30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1D5EA271477B200629D30 /* ViewController.swift */; };
+		0EC1D5EE271477B200629D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC1D5EC271477B200629D30 /* Main.storyboard */; };
+		0EC1D5F0271477B400629D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC1D5EF271477B400629D30 /* Assets.xcassets */; };
+		0EC1D5F3271477B400629D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC1D5F1271477B400629D30 /* LaunchScreen.storyboard */; };
+		0EC1D5F92715B3CC00629D30 /* BetterWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1D5F82715B3CC00629D30 /* BetterWay.swift */; };
+		0EC1D5FC2715BBD700629D30 /* BetterWayDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1D5FB2715BBD700629D30 /* BetterWayDelegate.swift */; };
+		0EC1D6002716692A00629D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC1D5FF2716692A00629D30 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +38,17 @@
 		0EC1D5CF271476DA00629D30 /* BetterWayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterWayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC1D5D4271476DA00629D30 /* BetterWayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterWayTests.swift; sourceTree = "<group>"; };
 		0EC1D5D6271476DA00629D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC1D5E4271477B200629D30 /* BetterWayExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterWayExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC1D5E6271477B200629D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EC1D5E8271477B200629D30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0EC1D5EA271477B200629D30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EC1D5ED271477B200629D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EC1D5EF271477B400629D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EC1D5F2271477B400629D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EC1D5F4271477B400629D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC1D5F82715B3CC00629D30 /* BetterWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterWay.swift; sourceTree = "<group>"; };
+		0EC1D5FB2715BBD700629D30 /* BetterWayDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterWayDelegate.swift; sourceTree = "<group>"; };
+		0EC1D5FF2716692A00629D30 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0EC1D5E1271477B200629D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +82,7 @@
 			children = (
 				0EC1D5C8271476DA00629D30 /* BetterWay */,
 				0EC1D5D3271476DA00629D30 /* BetterWayTests */,
+				0EC1D5E5271477B200629D30 /* BetterWayExamples */,
 				0EC1D5C7271476DA00629D30 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +92,7 @@
 			children = (
 				0EC1D5C6271476DA00629D30 /* BetterWay.framework */,
 				0EC1D5CF271476DA00629D30 /* BetterWayTests.xctest */,
+				0EC1D5E4271477B200629D30 /* BetterWayExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,8 +100,11 @@
 		0EC1D5C8271476DA00629D30 /* BetterWay */ = {
 			isa = PBXGroup;
 			children = (
+				0EC1D6012716694400629D30 /* Examples */,
+				0EC1D5FA2715BBCD00629D30 /* Protocols */,
 				0EC1D5C9271476DA00629D30 /* BetterWay.h */,
 				0EC1D5CA271476DA00629D30 /* Info.plist */,
+				0EC1D5F82715B3CC00629D30 /* BetterWay.swift */,
 			);
 			path = BetterWay;
 			sourceTree = "<group>";
@@ -84,6 +116,36 @@
 				0EC1D5D6271476DA00629D30 /* Info.plist */,
 			);
 			path = BetterWayTests;
+			sourceTree = "<group>";
+		};
+		0EC1D5E5271477B200629D30 /* BetterWayExamples */ = {
+			isa = PBXGroup;
+			children = (
+				0EC1D5E6271477B200629D30 /* AppDelegate.swift */,
+				0EC1D5E8271477B200629D30 /* SceneDelegate.swift */,
+				0EC1D5EA271477B200629D30 /* ViewController.swift */,
+				0EC1D5EC271477B200629D30 /* Main.storyboard */,
+				0EC1D5EF271477B400629D30 /* Assets.xcassets */,
+				0EC1D5F1271477B400629D30 /* LaunchScreen.storyboard */,
+				0EC1D5F4271477B400629D30 /* Info.plist */,
+			);
+			path = BetterWayExamples;
+			sourceTree = "<group>";
+		};
+		0EC1D5FA2715BBCD00629D30 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0EC1D5FB2715BBD700629D30 /* BetterWayDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0EC1D6012716694400629D30 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				0EC1D5FF2716692A00629D30 /* Main.storyboard */,
+			);
+			path = Examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +198,23 @@
 			productReference = 0EC1D5CF271476DA00629D30 /* BetterWayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0EC1D5E3271477B200629D30 /* BetterWayExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EC1D5F5271477B400629D30 /* Build configuration list for PBXNativeTarget "BetterWayExamples" */;
+			buildPhases = (
+				0EC1D5E0271477B200629D30 /* Sources */,
+				0EC1D5E1271477B200629D30 /* Frameworks */,
+				0EC1D5E2271477B200629D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterWayExamples;
+			productName = BetterWayExamples;
+			productReference = 0EC1D5E4271477B200629D30 /* BetterWayExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,8 +226,12 @@
 				TargetAttributes = {
 					0EC1D5C5271476DA00629D30 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					0EC1D5CE271476DA00629D30 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					0EC1D5E3271477B200629D30 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
@@ -168,6 +251,7 @@
 			targets = (
 				0EC1D5C5271476DA00629D30 /* BetterWay */,
 				0EC1D5CE271476DA00629D30 /* BetterWayTests */,
+				0EC1D5E3271477B200629D30 /* BetterWayExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EC1D6002716692A00629D30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +272,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0EC1D5E2271477B200629D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC1D5F3271477B400629D30 /* LaunchScreen.storyboard in Resources */,
+				0EC1D5F0271477B400629D30 /* Assets.xcassets in Resources */,
+				0EC1D5EE271477B200629D30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EC1D5F92715B3CC00629D30 /* BetterWay.swift in Sources */,
+				0EC1D5FC2715BBD700629D30 /* BetterWayDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +299,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EC1D5D5271476DA00629D30 /* BetterWayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EC1D5E0271477B200629D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC1D5EB271477B200629D30 /* ViewController.swift in Sources */,
+				0EC1D5E7271477B200629D30 /* AppDelegate.swift in Sources */,
+				0EC1D5E9271477B200629D30 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +321,25 @@
 			targetProxy = 0EC1D5D1271476DA00629D30 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EC1D5EC271477B200629D30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EC1D5ED271477B200629D30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EC1D5F1271477B400629D30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EC1D5F2271477B400629D30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0EC1D5D8271476DA00629D30 /* Debug */ = {
@@ -341,6 +467,7 @@
 		0EC1D5DB271476DA00629D30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -356,6 +483,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = bruno.BetterWay;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +492,7 @@
 		0EC1D5DC271476DA00629D30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -387,6 +516,7 @@
 		0EC1D5DE271476DA00629D30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BetterWayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,6 +534,7 @@
 		0EC1D5DF271476DA00629D30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BetterWayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -412,6 +543,42 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bruno.BetterWayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0EC1D5F6271477B400629D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BetterWayExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.BetterWayExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EC1D5F7271477B400629D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BetterWayExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bruno.BetterWayExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -444,6 +611,15 @@
 			buildConfigurations = (
 				0EC1D5DE271476DA00629D30 /* Debug */,
 				0EC1D5DF271476DA00629D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EC1D5F5271477B400629D30 /* Build configuration list for PBXNativeTarget "BetterWayExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC1D5F6271477B400629D30 /* Debug */,
+				0EC1D5F7271477B400629D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
